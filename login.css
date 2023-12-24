@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+       
+   }
+
+   .img{
+    
+    background:url(../0.jpg);
+     height: 100%;
+       background-size: cover;
+       background-position: center;
+   }
+   .img:after{
+     position: absolute;
+   content: '';
+       top: 0;
+       left: 0;
+       height: 100%;
+       width: 100%;
+       background: rgba(0,0,0,0.7);
+       
+       
+       
+   }
+   
+   
+   .content{
+       position: absolute;
+     top: 50%;
+       left: 50%;
+       text-align: center;
+       padding: 60px  32px;
+       width: 370px;
+       background: rgba(255,255,255,0.04);
+       box-shadow: -1px 4px 28px 0px rgba(0,0,0,0.75);
+       z-index: 9;
+       transform: translate(-50%,-50%)
+       
+   }
+   .content h2{
+      color: white;
+       font-size: 33px;
+       
+       margin: 0 0 35px 0;
+       
+   
+       
+   }
+   .filed{
+    position: relative;
+       height: 45px;
+       width: 100%;
+       display: flex;
+       background: rgba(255,255,255,0.94)
+       
+   }
+   .filed input{
+    height: 100%;
+       width: 100%;
+       color: #222;
+       font-size: 16px;
+       text-align: end;
+       margin-right: 10px;
+       background: transparent;
+       border: none;
+      outline: none;
+       
+   }
+   .space{
+    margin-top: 16px;   
+       
+       
+   }
+   
+   .show{
+    position: absolute;
+       right: 15px;
+       font-size: 13px;
+       color: #222;
+       
+       font-weight: 700;
+       cursor: pointer;
+       
+   }
+   .pass-key:void .show{
+       
+     display: block;  
+   }
+   .filed span{
+     width: 40px;  
+     line-height: 45px;  
+   }
+   
+   
+   
+   
+   .field1 input[type="submit"]{
+    background: #4180ab;
+       border: 8px solid #407ca5;
+       color: white;
+       font-size: 18px;
+       cursor: pointer;
+       font-weight: 600;
+       
+       
+       
+   }
+   .field1 input[type="submit"]:hover{
+       background: #3f7294;
+   
+   }
+   .field1 input {
+    height: 100%;
+       width: 100%;
+       border: none;
+       outline: none;
+       color: #222;
+       margin-top: 30px;
+       font-size: 16px;
+       
+       
+   } 
+   
+   .signup{
+     color: white;
+       margin-top: 20px;
+       
+   }
+   .signup a{
+      color: #3498db;
+     text-decoration: none;
+       
+   }
+   
+   .signup a:hover{
+       
+     text-decoration: underline;
+   }
+   
+   
